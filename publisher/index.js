@@ -15,7 +15,7 @@ if(!password) {
   throw new Error('--password=YYY')
 }
 if(!owner) {
-  throw new Error('--password=reimagined')
+  throw new Error('--owner=reimagined')
 }
 if(!repo) {
   throw new Error('--repo=resolve')
